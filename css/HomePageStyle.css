@@ -1,0 +1,358 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: monospace;
+    font-size: 4em;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container{
+    padding-top: 5%;
+    margin: auto;   
+    width:  auto;
+    height: auto;
+    overflow: auto;
+}
+ 
+.slider-inner{
+    width: 720px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    background-color: pink;
+    border: pink solid 1px;
+    border-radius: 10px;
+    margin: auto;
+    z-index: -1;
+}
+
+
+.slider-inner img{
+    display: none;
+    width: 720px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.prev, .next{
+    float:left;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.prev, .next img{
+    width: 40px;
+}
+
+.prev img, .next{
+    width: 40px;
+}
+
+.prev{
+    position: relative;
+    margin-right: 0%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+ 
+.next{
+    position: relative;
+    margin-left: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    position: relative;
+}
+
+.description{
+    padding-top: 10vh;
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.picture img{
+    width: 200px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.component:hover{
+    background: rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+}
+
+.picture img:hover{
+    opacity: 0.8;
+}
+
+.lower a{
+    color: gray;
+}
+
+.lower a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 840px){
+
+    h1{
+        text-align: center;
+        padding-bottom: 5%;
+        font-family: monospace;
+        font-size: 3em;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .upper{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 5%;
+        margin: auto;   
+        width:  auto;
+        height: auto;
+        overflow: auto;
+    }
+     
+    .slider-inner{
+        width: 280px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        padding: 3px;
+        background-color: pink;
+        border: pink solid 1px;
+        border-radius: 10px;
+        margin: auto; 
+    }
+    
+    
+    .slider-inner img{
+        display: none;
+        width: 280px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    .slider-inner img.active{
+        display: inline-block;
+    }
+    
+    .prev, .next{
+        float:left;
+        margin-top: 30%;
+        cursor: pointer;
+    }
+    
+    .prev, .next img{
+        width: 30px;
+    }
+    
+    .prev img, .next{
+        width: 30px;
+    }
+    
+    .prev{
+        position: relative;
+        margin-right: 0%;
+        z-index: 100;
+        cursor: pointer;
+    }
+    
+     
+    .next{
+        position: relative;
+        margin-left: 0;
+        z-index: 100;
+        cursor: pointer;
+    }
+    
+    .lower{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 60%;
+    }
+    
+    .component{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 2%;
+        position: relative;
+       
+    }
+    
+    .description{
+        padding-top: 5vh;
+        font-size: 1.8em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    
+    .picture img{
+        width: 120px;
+    }
+
+    .component:hover{
+        background: rgba(0, 0, 0, 0.342);
+        cursor: pointer;
+    }
+    
+    .picture img:hover{
+        opacity: 0.8;
+    }
+    
+}
+/* 
+.footer{
+    background-color: #9477d0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-right{
+    padding-left: 70%;
+    justify-content:space-between;
+    display: flex;
+    align-items:center;
+}
+
+.footer-left{
+    padding-left: 5%;
+    display: flex;
+    align-items:center; 
+}
+
+
+
+.sosmed img{
+    width: 20px;
+} */
+
+.footer{
+    background-color: #fff5fd;
+}
+
+.footer-full{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.footer-1{
+    padding-left: 20px;
+}
+
+.rata{
+    text-align: justify;
+}
+
+.f-left-1{
+    padding-top: 30px;
+}
+
+
+.f-left-2{
+    text-align: justify;
+}
+
+.f-left-3{
+    text-align: justify;
+}
+
+.f-left-4{
+    padding-bottom: 20px;
+}
+
+.f-left-5{
+    padding-bottom: 20px;
+}
+
+.f-left-6{
+    padding-bottom: 30px;
+}
+
+
+.footer-2{
+    padding-right: 20px;
+}
+
+.f-right-1 p{
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.logo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+ .footer-2 .logo img{
+    width: 50px;
+    padding-inline: 5px;
+    padding-bottom: 20px;
+}
+
+.f-mid-1{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+.f-mid-1 img{
+    width: 150px;
+}
+
+
+
+
+

@@ -1,0 +1,166 @@
+body{
+    margin:0%;
+}
+
+.formBox{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color : #000;
+    box-sizing : border-box;
+}
+
+.content{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+h1{
+    padding-top: 1%;
+    text-align : center;
+    font-size : 2em;
+}
+
+form{
+    border : solid 2px pink;
+    padding: 5%;
+    width: 20%;
+    border-radius: 3%;
+    padding-bottom: 1%;
+}
+
+.formType input{
+    width: 100%;
+    margin-bottom : 2%;
+    border : none;
+    border-bottom : 1px solid purple;
+    background : transparent;
+    outline : none;
+    height : 30px;
+    color : #000;
+    font-size : 13px;
+}
+
+.form-item{
+    display:  block;
+    width: 100%;
+}
+
+.submitnow{
+    width: 100%;
+    color: white;
+    background: pink;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 840px){
+
+    .formBox{
+        padding-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color : #000;
+        box-sizing : border-box;
+    }
+    
+    .content{
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    
+    h1{
+        padding-top: 1%;
+        text-align : center;
+        font-size : 2em;
+    }
+    
+    form{
+        border : solid 2px pink;
+        padding: 5%;
+        width: 50%;
+        border-radius: 3%;
+        padding-bottom: 1%;
+    }    
+    
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #fff5fd;
+    margin-bottom: -50px;
+}
+
+.footer-full{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.footer-1{
+    padding-left: 20px;
+}
+
+.rata{
+    text-align: justify;
+}
+
+.f-left-1{
+    padding-top: 30px;
+}
+
+
+.f-left-2{
+    text-align: justify;
+}
+
+.f-left-3{
+    text-align: justify;
+}
+
+.f-left-4{
+    padding-bottom: 20px;
+}
+
+.f-left-5{
+    padding-bottom: 20px;
+}
+
+.f-left-6{
+    padding-bottom: 30px;
+}
+
+
+.footer-2{
+    padding-right: 20px;
+}
+
+.f-right-1 p{
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.logo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+ .footer-2 .logo img{
+    width: 50px;
+    padding-inline: 5px;
+    padding-bottom: 20px;
+}
+
+.f-mid-1{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+.f-mid-1 img{
+    width: 150px;
+}
